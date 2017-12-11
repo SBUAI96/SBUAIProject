@@ -1,0 +1,10 @@
+{
+  "agents" : {
+    "agentA1" : {"entity" : "connectionA1", "team" : "A", "class" : "WarpAgent"},
+    "agentA2" : {"entity" : "connectionA2", "team" : "A", "class" : "WarpAgent"},
+    "agentA3" : {"entity" : "connectionA3", "team" : "A", "class" : "WarpAgent"},
+    "agentA4" : {"entity" : "connectionA4", "team" : "A", "class" : "WarpAgent"},
+    "agentA5" : {"entity" : "connectionA5", "team" : "A", "class" : "WarpAgent"},
+    "agentA6" : {"entity" : "connectionA6", "team" : "A", "class" : "WarpAgent"}
+  }
+}

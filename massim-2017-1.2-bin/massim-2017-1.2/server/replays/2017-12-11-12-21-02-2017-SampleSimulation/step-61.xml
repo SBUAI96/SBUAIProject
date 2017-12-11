@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dynamicCity step="61">
+  <entity charge="500" lat="48.83066" load="0" lon="2.33143" name="agentC1" role="car" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.84084" load="0" lon="2.4054" name="agentC4" role="drone" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.87545" load="0" lon="2.39099" name="agentB3" role="drone" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="200" lat="48.83146" load="0" lon="2.39736" name="agentA2" role="car" routeLength="25" team="A">
+    <action result="failed_location" type="deliver_job">
+      <params>job0</params>
+    </action>
+    <route i="0" lat="48.83268" lon="2.39813"/>
+    <route i="1" lat="48.83402" lon="2.39995"/>
+    <route i="2" lat="48.83537" lon="2.40176"/>
+    <route i="3" lat="48.8368" lon="2.40245"/>
+    <route i="4" lat="48.83842" lon="2.40142"/>
+    <route i="5" lat="48.83981" lon="2.39999"/>
+    <route i="6" lat="48.84137" lon="2.39866"/>
+    <route i="7" lat="48.84293" lon="2.3973"/>
+    <route i="8" lat="48.8445" lon="2.39599"/>
+    <route i="9" lat="48.84596" lon="2.39474"/>
+    <route i="10" lat="48.84751" lon="2.39335"/>
+    <route i="11" lat="48.84904" lon="2.39193"/>
+    <route i="12" lat="48.85057" lon="2.39048"/>
+    <route i="13" lat="48.85212" lon="2.38911"/>
+    <route i="14" lat="48.85367" lon="2.38803"/>
+    <route i="15" lat="48.8553" lon="2.38691"/>
+    <route i="16" lat="48.8568" lon="2.3854"/>
+    <route i="17" lat="48.8583" lon="2.3839"/>
+    <route i="18" lat="48.85981" lon="2.38241"/>
+    <route i="19" lat="48.86132" lon="2.38092"/>
+    <route i="20" lat="48.86284" lon="2.37947"/>
+    <route i="21" lat="48.86442" lon="2.37816"/>
+    <route i="22" lat="48.8658" lon="2.37798"/>
+    <route i="23" lat="48.86653" lon="2.38005"/>
+    <route i="24" lat="48.86731" lon="2.37925"/>
+  </entity>
+  <entity charge="350" lat="48.86719" load="0" lon="2.37842" name="agentC5" role="motorcycle" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.84084" load="0" lon="2.4054" name="agentB4" role="drone" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="0" facility="shop4" lat="48.87731" load="68" lon="2.33725" name="agentA3" role="drone" team="A">
+    <action result="failed_location" type="deliver_job">
+      <params>job1</params>
+    </action>
+    <items amount="2" name="item9"/>
+  </entity>
+  <entity charge="500" lat="48.82827" load="0" lon="2.3923" name="agentC2" role="car" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="500" lat="48.83066" load="0" lon="2.33143" name="agentB1" role="car" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.87545" load="0" lon="2.39099" name="agentC3" role="drone" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="500" lat="48.82827" load="0" lon="2.3923" name="agentB2" role="car" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="230" lat="48.87366" load="0" lon="2.34276" name="agentA1" role="car" routeLength="5" team="A">
+    <action result="failed_location" type="buy">
+      <params>item2</params>
+      <params>1</params>
+    </action>
+    <route i="0" lat="48.87504" lon="2.34101"/>
+    <route i="1" lat="48.87655" lon="2.33959"/>
+    <route i="2" lat="48.87798" lon="2.33797"/>
+    <route i="3" lat="48.8774" lon="2.33727"/>
+    <route i="4" lat="48.87731" lon="2.33725"/>
+  </entity>
+  <entity charge="1750" lat="48.83324" load="0" lon="2.33267" name="agentA6" role="truck" routeLength="4" team="A">
+    <action result="successful" type="goto">
+      <params>shop1</params>
+    </action>
+    <route i="0" lat="48.83149" lon="2.33332"/>
+    <route i="1" lat="48.8302" lon="2.33287"/>
+    <route i="2" lat="48.82968" lon="2.33082"/>
+    <route i="3" lat="48.82931" lon="2.3297"/>
+  </entity>
+  <entity charge="2000" lat="48.89342" load="0" lon="2.38456" name="agentC6" role="truck" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="350" lat="48.86719" load="0" lon="2.37842" name="agentB5" role="motorcycle" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="10" lat="48.88567" load="0" lon="2.37721" name="agentA4" role="drone" routeLength="7" team="A">
+    <action result="failed_location" type="deliver_job">
+      <params>job7</params>
+    </action>
+    <route i="0" lat="48.88622" lon="2.37981"/>
+    <route i="1" lat="48.88677" lon="2.38242"/>
+    <route i="2" lat="48.88732" lon="2.38503"/>
+    <route i="3" lat="48.88786" lon="2.38763"/>
+    <route i="4" lat="48.88841" lon="2.39024"/>
+    <route i="5" lat="48.88896" lon="2.39284"/>
+    <route i="6" lat="48.88898" lon="2.39296"/>
+  </entity>
+  <entity charge="2000" lat="48.89342" load="0" lon="2.38456" name="agentB6" role="truck" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="120" lat="48.87923" load="0" lon="2.33514" name="agentA5" role="motorcycle" routeLength="2" team="A">
+    <action result="failed_location" type="buy">
+      <params>item9</params>
+      <params>1</params>
+    </action>
+    <route i="0" lat="48.87845" lon="2.33746"/>
+    <route i="1" lat="48.87731" lon="2.33725"/>
+  </entity>
+  <shop lat="48.88923" lon="2.39355" name="shop5" restock="3">
+    <item amount="18" name="item5" price="36"/>
+    <item amount="6" name="item8" price="74"/>
+    <item amount="8" name="tool0" price="81"/>
+  </shop>
+  <shop lat="48.82931" lon="2.3297" name="shop1" restock="1">
+    <item amount="11" name="item9" price="139"/>
+    <item amount="9" name="item5" price="44"/>
+    <item amount="6" name="item2" price="28"/>
+    <item amount="10" name="item0" price="31"/>
+    <item amount="5" name="item10" price="27"/>
+    <item amount="14" name="tool0" price="64"/>
+    <item amount="14" name="item1" price="85"/>
+  </shop>
+  <shop lat="48.84754" lon="2.40211" name="shop3" restock="5">
+    <item amount="19" name="item9" price="104"/>
+    <item amount="11" name="item2" price="24"/>
+    <item amount="18" name="item7" price="62"/>
+    <item amount="13" name="item0" price="41"/>
+    <item amount="13" name="item8" price="65"/>
+    <item amount="6" name="item10" price="31"/>
+    <item amount="10" name="item6" price="23"/>
+    <item amount="17" name="item4" price="109"/>
+  </shop>
+  <shop lat="48.87731" lon="2.33725" name="shop4" restock="4">
+    <item amount="5" name="item9" price="144"/>
+    <item amount="15" name="item2" price="28"/>
+    <item amount="13" name="item7" price="57"/>
+    <item amount="10" name="item3" price="142"/>
+    <item amount="12" name="item0" price="44"/>
+    <item amount="13" name="item8" price="62"/>
+    <item amount="12" name="item6" price="17"/>
+    <item amount="12" name="item1" price="67"/>
+  </shop>
+  <shop lat="48.84353" lon="2.2938" name="shop0" restock="2">
+    <item amount="17" name="item9" price="131"/>
+    <item amount="15" name="item7" price="53"/>
+    <item amount="17" name="item6" price="17"/>
+    <item amount="20" name="tool0" price="69"/>
+  </shop>
+  <shop lat="48.84321" lon="2.34465" name="shop2" restock="5">
+    <item amount="10" name="item9" price="121"/>
+    <item amount="17" name="item7" price="70"/>
+    <item amount="12" name="item0" price="35"/>
+    <item amount="18" name="item10" price="30"/>
+    <item amount="16" name="item6" price="18"/>
+    <item amount="18" name="tool0" price="91"/>
+    <item amount="5" name="item4" price="114"/>
+    <item amount="20" name="item1" price="94"/>
+  </shop>
+  <workshop lat="48.88508" lon="2.3108" name="workshop5"/>
+  <workshop lat="48.86442" lon="2.28807" name="workshop4"/>
+  <workshop lat="48.83294" lon="2.27882" name="workshop0"/>
+  <workshop lat="48.87468" lon="2.35391" name="workshop6"/>
+  <workshop lat="48.85113" lon="2.39735" name="workshop3"/>
+  <workshop lat="48.84373" lon="2.3245" name="workshop1"/>
+  <workshop lat="48.82057" lon="2.36593" name="workshop2"/>
+  <chargingStation lat="48.85108" lon="2.28619" name="chargingStation0" rate="114"/>
+  <chargingStation lat="48.83921" lon="2.40422" name="chargingStation3" rate="98"/>
+  <chargingStation lat="48.87787" lon="2.30337" name="chargingStation5" rate="61"/>
+  <chargingStation lat="48.87227" lon="2.29148" name="chargingStation4" rate="82"/>
+  <chargingStation lat="48.8377" lon="2.31033" name="chargingStation1" rate="56"/>
+  <chargingStation lat="48.89535" lon="2.36014" name="chargingStation6" rate="121"/>
+  <chargingStation lat="48.88657" lon="2.40998" name="chargingStation7" rate="136"/>
+  <chargingStation lat="48.85558" lon="2.37739" name="chargingStation2" rate="112"/>
+  <dump lat="48.83965" lon="2.35357" name="dump0"/>
+  <dump lat="48.88454" lon="2.38825" name="dump2"/>
+  <dump lat="48.8212" lon="2.39463" name="dump1"/>
+  <job end="309" id="job21" poster="system" reward="17" start="45" storage="storage0">
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item10"/>
+    <required amount="1" name="item4"/>
+  </job>
+  <job end="411" id="job7" poster="system" reward="18" start="14" storage="storage6">
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="407" id="job25" poster="system" reward="15" start="59" storage="storage1">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="418" id="job26" poster="system" reward="15" start="61" storage="storage3">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item10"/>
+    <required amount="1" name="item6"/>
+  </job>
+  <job end="395" id="job3" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="256" id="job8" poster="system" reward="17" start="16" storage="storage3">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item6"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="317" id="job14" poster="system" reward="19" start="27" storage="storage6">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="383" id="job16" poster="system" reward="16" start="31" storage="storage6">
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item0"/>
+  </job>
+  <job end="294" id="job0" poster="system" reward="17" start="1" storage="storage5">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item4"/>
+  </job>
+  <job end="274" id="job17" poster="system" reward="16" start="33" storage="storage0">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item6"/>
+  </job>
+  <job end="298" id="job1" poster="system" reward="15" start="2" storage="storage3">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="161" id="job19" poster="system" reward="17" start="39" storage="storage6">
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item6"/>
+  </job>
+  <job end="395" id="job4" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="166" id="job18" poster="system" reward="18" start="35" storage="storage1">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="252" id="job12" poster="system" reward="19" start="24" storage="storage6">
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="289" id="job22" poster="system" reward="16" start="49" storage="storage6">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="373" id="job13" poster="system" reward="15" start="25" storage="storage5">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item4"/>
+  </job>
+  <job end="159" id="job24" poster="system" reward="19" start="58" storage="storage1">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item6"/>
+  </job>
+  <job end="302" id="job10" poster="system" reward="19" start="21" storage="storage1">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item0"/>
+  </job>
+  <job end="272" id="job20" poster="system" reward="18" start="42" storage="storage4">
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+    <required amount="1" name="item6"/>
+  </job>
+  <job end="398" id="job9" poster="system" reward="19" start="18" storage="storage5">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="341" id="job2" poster="system" reward="17" start="8" storage="storage5">
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="395" id="job5" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="245" id="job11" poster="system" reward="19" start="22" storage="storage4">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item3"/>
+  </job>
+  <job end="231" id="job6" poster="system" reward="15" start="13" storage="storage0">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item0"/>
+  </job>
+  <job end="355" id="job15" poster="system" reward="15" start="30" storage="storage4">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item10"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="362" id="job23" poster="system" reward="18" start="53" storage="storage1">
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item10"/>
+    <required amount="1" name="item6"/>
+    <required amount="1" name="item4"/>
+  </job>
+  <storage lat="48.88898" lon="2.39296" name="storage6" totalCapacity="8351" usedCapacity="0"/>
+  <storage lat="48.85252" lon="2.38946" name="storage2" totalCapacity="8232" usedCapacity="0"/>
+  <storage lat="48.83189" lon="2.29656" name="storage0" totalCapacity="12780" usedCapacity="0"/>
+  <storage lat="48.82147" lon="2.32767" name="storage1" totalCapacity="12712" usedCapacity="0"/>
+  <storage lat="48.88677" lon="2.32877" name="storage4" totalCapacity="12586" usedCapacity="0"/>
+  <storage lat="48.8966" lon="2.27797" name="storage3" totalCapacity="13816" usedCapacity="0"/>
+  <storage lat="48.86731" lon="2.37925" name="storage5" totalCapacity="11324" usedCapacity="0"/>
+  <resourceNode lat="48.86918" lon="2.38663" name="resourceNode6" resource="item8"/>
+  <resourceNode lat="48.83177" lon="2.29636" name="resourceNode0" resource="item8"/>
+  <resourceNode lat="48.87069" lon="2.27046" name="resourceNode3" resource="item8"/>
+  <resourceNode lat="48.85398" lon="2.3518" name="resourceNode1" resource="item9"/>
+  <resourceNode lat="48.87096" lon="2.34973" name="resourceNode5" resource="item10"/>
+  <resourceNode lat="48.83114" lon="2.3966" name="resourceNode2" resource="item10"/>
+  <resourceNode lat="48.87292" lon="2.30832" name="resourceNode4" resource="item9"/>
+  <team money="49712" name="A"/>
+  <team money="50000" name="B"/>
+  <team money="50000" name="C"/>
+</dynamicCity>

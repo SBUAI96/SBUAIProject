@@ -1,0 +1,36 @@
+sudo: false
+dist: trusty
+
+language: java
+
+jdk:
+- oraclejdk8
+
+install: true
+script: mvn package
+
+after_success: cp target/massim-*.tar.gz massim-${TRAVIS_BRANCH}.tar.gz
+
+deploy:
+  provider: releases
+  api_key:
+    secure: B9mrLrIif4S7O5CHn3S5zJrg62vGZ3iJ1OeUSEhBvrr5yM5U3w9sKSnS2Lh8wYQIQcE62PB6A0O+kN5BHLJhU5rcQmqpCpVXkpefD3alYRDrVDTjOp7n1UjNaVwXmJG0rHdYexxMhw4GgVzXpy/RJZyuvbH4c9cXowTpS1SHpXOft+6FWQ0yfplH39n1BoggVL9VdFCiOH4O6nKURL633z1sDPjZ8ynzbXyeaop/bzQpzKOTTZuJQevx1LFZBuzf6vMUnTQ+u3tKukMw025iNReLIOlWTd96jNINxkjvfdZ74HqdUIKdfS8k886J3O7SE5GjyiKrh9jM5D678LEO+oGDiaXPtKCZzrWHPispIhKhdJ1HKobIh5ljH+2fIrFoJdSJmn5Y1KUgSRNPASVwpiETRRctFqEj66ywdUcS+k/RnNTT0XSJ0HFMi3x5xul5H6YlOjh3tFe5rBUCprwxXd1mRBX+Blcu8oofbhecjxgTfuRyC9lSeoqOrogL5QNXQLjRqr4LldUwqX7fMkqBHU8pclr/rCdKYVDqNkJIYRSoOpB1OMd7VzlhNsh41Bofq31K0ZiTR73jIn0M3h4dmJJf3rxov/7ULaYyepyScUIf0wqJdnevvVq+n8TmYmeU+mlWIr08zqrCMezpCr1nRNWQ0k6/P0l/gjndAv97cwg=
+  file: target/massim-*.tar.gz
+  file_glob: true
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: agentcontest/massim
+    branch: master
+
+addons:
+  artifacts:
+    bucket: agentcontest
+    s3_region: eu-west-1
+    paths: $(ls massim-*.tar.gz)
+    target_paths: massim
+    cache_control: public
+    key:
+      secure: EiF8xTt3IKzYDbytjLMhlQwHlMqWQxWpAcfMOxyuIWuFdIf016Z2SUihm85Z/uFF1im77ZXP/aanPu44S+UJh/tYziDuQPP48QCtkpk/1BarGTk4zr+YEWJspUdd3+b2bCOcF1JZiXnAiq/2pX2OTC5pUqmgZ/7/mR2LKhSuddHZotYj2j8JqFbdipM6EoeLOeHPQHRYWrQmPDVhSSuoI5SEeiWVnsRVX0mcVRTzpAC4qD9Q8oNs5GQlHxA/juYuyWr+sK6OAZd694QtIU0M5utLI7VY36+rTvHj52vZjQ07mk2K1/lrve4+Si/E8JxhfftaHg2x770QdTn2Nrh3r4Pj6BDYuTS+DMmtuAgG+6E2sqBvKL7tP8jeeVGWyateEyHcStwkfakB4lXkYm5ZgHl1f5/ehBPUkzBuBTOT5z/0k3lp6a737OTAlEQiosRtGoduy71SJE02H9+X0VETSkshQlbX8C0Xg1TH+wMtv2ZvVpE9hNHfmmctjgSk2DyKmLvgff+hf9qg6uUn+WSLR5yv2iOk6HEEVJ7r+5TKqujjRMdWGGark/oQxepzlgQko4VPMKXr/Q0BhdYwdl6RswVTcLw/UGiiiNu91GryycJUIWwMGqfReN9QXVYAt0wUIw2CgPaOR90CtM3hwHkbYVXaKKqDvUsyrFHRANF/P3M=
+    secret:
+      secure: O9Sn1kfGANYeemELoQwWcvSAdsd+lNgKi64XSNnA7GcNU6Wb9VgY2e1TowaqIuvMnETm86kxyeDqFjkTv69CnsEBGl+wf9Yq2B3rhqqIv7SOmt2vF9O7+Yrc3mE3aLMs8z2ATX9D5pvstQDj55pHokHaQcBklgDbGV1acoDCQB9g016eMGqc4jEFpSBb9FxH+bGYX6rh3BK4oZ/MaTXEOmDEExovpmOw0xS9/P2QdGsevmyUelzpuIHKWDAY7xUNrMYfMovrccmA3NVz1GceL2pI6IQ6L3E7EPdZ0/NPwp5yO3k8TnS8nuYwq6+WJXVkbXnYvgzU7CI6BIMimd0yk2nAd2paKIKqYugh2jiW7WNMTt3qB9ZHrgPwuHbOQC9U6ca/LHaLFIo3bPF7FLuKJrdYSa2Lgpm02tSoJhbzUgNuHsZ46jZ/5kAR9xwai3CT/JlDl1ltoAk+u6k5vs2fKEJ1jhAIm0y9s7bvwVLRSwtzDuvH2GzA/6Hzj3UFJ0X5jrKF4lWyTLLX4wmTInmiY9pWkRi9+h6HpS3ZagC33Wme5UOVaVI0BD0sPVboKDmEEWTdYY1BjsGW7l1vEZg6jhBz3SGH6yrOHgng2qP4pCly2itSsrHwWBkcjo9YvV9PVuofXCJ79Q+7sYCElexTMdPN/9zE6SP4AaUp0B87t58=

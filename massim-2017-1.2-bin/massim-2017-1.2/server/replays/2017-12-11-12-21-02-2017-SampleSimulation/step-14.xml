@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dynamicCity step="14">
+  <entity charge="500" lat="48.83066" load="0" lon="2.33143" name="agentC1" role="car" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.84084" load="0" lon="2.4054" name="agentC4" role="drone" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.87545" load="0" lon="2.39099" name="agentB3" role="drone" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="430" lat="48.83001" load="0" lon="2.392" name="agentA2" role="car" routeLength="27" team="A">
+    <action result="successful" type="goto">
+      <params>shop1</params>
+    </action>
+    <route i="0" lat="48.82908" lon="2.38966"/>
+    <route i="1" lat="48.82806" lon="2.38741"/>
+    <route i="2" lat="48.82701" lon="2.3852"/>
+    <route i="3" lat="48.82605" lon="2.38289"/>
+    <route i="4" lat="48.82525" lon="2.38045"/>
+    <route i="5" lat="48.82456" lon="2.37796"/>
+    <route i="6" lat="48.82373" lon="2.37554"/>
+    <route i="7" lat="48.82291" lon="2.3731"/>
+    <route i="8" lat="48.8221" lon="2.37066"/>
+    <route i="9" lat="48.82204" lon="2.36827"/>
+    <route i="10" lat="48.82312" lon="2.36609"/>
+    <route i="11" lat="48.82421" lon="2.36392"/>
+    <route i="12" lat="48.82529" lon="2.36174"/>
+    <route i="13" lat="48.82615" lon="2.35944"/>
+    <route i="14" lat="48.82616" lon="2.35672"/>
+    <route i="15" lat="48.82601" lon="2.35399"/>
+    <route i="16" lat="48.82586" lon="2.35127"/>
+    <route i="17" lat="48.82571" lon="2.34855"/>
+    <route i="18" lat="48.82586" lon="2.34586"/>
+    <route i="19" lat="48.82624" lon="2.34319"/>
+    <route i="20" lat="48.82665" lon="2.34055"/>
+    <route i="21" lat="48.82703" lon="2.33788"/>
+    <route i="22" lat="48.82742" lon="2.33521"/>
+    <route i="23" lat="48.82781" lon="2.33255"/>
+    <route i="24" lat="48.82815" lon="2.33094"/>
+    <route i="25" lat="48.82968" lon="2.33076"/>
+    <route i="26" lat="48.82931" lon="2.3297"/>
+  </entity>
+  <entity charge="350" lat="48.86719" load="0" lon="2.37842" name="agentC5" role="motorcycle" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.84084" load="0" lon="2.4054" name="agentB4" role="drone" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="180" facility="shop4" lat="48.87731" load="34" lon="2.33725" name="agentA3" role="drone" team="A">
+    <action result="successful" type="goto">
+      <params>shop4</params>
+    </action>
+    <items amount="1" name="item9"/>
+  </entity>
+  <entity charge="500" lat="48.82827" load="0" lon="2.3923" name="agentC2" role="car" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="500" lat="48.83066" load="0" lon="2.33143" name="agentB1" role="car" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="250" lat="48.87545" load="0" lon="2.39099" name="agentC3" role="drone" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="500" lat="48.82827" load="0" lon="2.3923" name="agentB2" role="car" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="460" lat="48.84725" load="0" lon="2.34079" name="agentA1" role="car" routeLength="23" team="A">
+    <action result="successful" type="goto">
+      <params>storage5</params>
+    </action>
+    <route i="0" lat="48.84892" lon="2.34181"/>
+    <route i="1" lat="48.8506" lon="2.34279"/>
+    <route i="2" lat="48.85232" lon="2.34361"/>
+    <route i="3" lat="48.854" lon="2.34453"/>
+    <route i="4" lat="48.8555" lon="2.34603"/>
+    <route i="5" lat="48.85716" lon="2.34707"/>
+    <route i="6" lat="48.85651" lon="2.34952"/>
+    <route i="7" lat="48.85562" lon="2.35189"/>
+    <route i="8" lat="48.85625" lon="2.35341"/>
+    <route i="9" lat="48.85785" lon="2.35459"/>
+    <route i="10" lat="48.85934" lon="2.35612"/>
+    <route i="11" lat="48.8608" lon="2.35771"/>
+    <route i="12" lat="48.86223" lon="2.35937"/>
+    <route i="13" lat="48.86177" lon="2.36137"/>
+    <route i="14" lat="48.8614" lon="2.36404"/>
+    <route i="15" lat="48.86218" lon="2.36624"/>
+    <route i="16" lat="48.86314" lon="2.36855"/>
+    <route i="17" lat="48.86409" lon="2.37087"/>
+    <route i="18" lat="48.86481" lon="2.37334"/>
+    <route i="19" lat="48.86532" lon="2.37597"/>
+    <route i="20" lat="48.86593" lon="2.37854"/>
+    <route i="21" lat="48.86685" lon="2.37973"/>
+    <route i="22" lat="48.86731" lon="2.37925"/>
+  </entity>
+  <entity charge="1990" lat="48.89378" load="0" lon="2.38063" name="agentA6" role="truck" routeLength="45" team="A">
+    <action result="failed_location" type="buy">
+      <params>item5</params>
+      <params>1</params>
+    </action>
+    <route i="0" lat="48.8924" lon="2.37887"/>
+    <route i="1" lat="48.89104" lon="2.37709"/>
+    <route i="2" lat="48.88966" lon="2.37534"/>
+    <route i="3" lat="48.88826" lon="2.37361"/>
+    <route i="4" lat="48.88686" lon="2.3719"/>
+    <route i="5" lat="48.88546" lon="2.37019"/>
+    <route i="6" lat="48.88406" lon="2.36846"/>
+    <route i="7" lat="48.88268" lon="2.3671"/>
+    <route i="8" lat="48.88129" lon="2.36538"/>
+    <route i="9" lat="48.87988" lon="2.36367"/>
+    <route i="10" lat="48.87849" lon="2.36202"/>
+    <route i="11" lat="48.87682" lon="2.361"/>
+    <route i="12" lat="48.87534" lon="2.35955"/>
+    <route i="13" lat="48.87377" lon="2.35833"/>
+    <route i="14" lat="48.87209" lon="2.35733"/>
+    <route i="15" lat="48.87042" lon="2.35634"/>
+    <route i="16" lat="48.8688" lon="2.35548"/>
+    <route i="17" lat="48.86713" lon="2.35447"/>
+    <route i="18" lat="48.86544" lon="2.35356"/>
+    <route i="19" lat="48.86372" lon="2.35276"/>
+    <route i="20" lat="48.86279" lon="2.35435"/>
+    <route i="21" lat="48.8611" lon="2.35345"/>
+    <route i="22" lat="48.85941" lon="2.35251"/>
+    <route i="23" lat="48.85771" lon="2.35161"/>
+    <route i="24" lat="48.85731" lon="2.34924"/>
+    <route i="25" lat="48.85562" lon="2.34829"/>
+    <route i="26" lat="48.85394" lon="2.34732"/>
+    <route i="27" lat="48.85226" lon="2.34635"/>
+    <route i="28" lat="48.85058" lon="2.3454"/>
+    <route i="29" lat="48.84888" lon="2.34449"/>
+    <route i="30" lat="48.84719" lon="2.34356"/>
+    <route i="31" lat="48.8455" lon="2.34263"/>
+    <route i="32" lat="48.84379" lon="2.34178"/>
+    <route i="33" lat="48.84204" lon="2.34127"/>
+    <route i="34" lat="48.84032" lon="2.34063"/>
+    <route i="35" lat="48.83866" lon="2.33955"/>
+    <route i="36" lat="48.83701" lon="2.33847"/>
+    <route i="37" lat="48.83535" lon="2.33743"/>
+    <route i="38" lat="48.83455" lon="2.33545"/>
+    <route i="39" lat="48.83448" lon="2.33272"/>
+    <route i="40" lat="48.8333" lon="2.33264"/>
+    <route i="41" lat="48.83156" lon="2.33329"/>
+    <route i="42" lat="48.83025" lon="2.3329"/>
+    <route i="43" lat="48.82968" lon="2.33092"/>
+    <route i="44" lat="48.82931" lon="2.3297"/>
+  </entity>
+  <entity charge="2000" lat="48.89342" load="0" lon="2.38456" name="agentC6" role="truck" team="C">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="350" lat="48.86719" load="0" lon="2.37842" name="agentB5" role="motorcycle" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="240" lat="48.84651" load="0" lon="2.3948" name="agentA4" role="drone" routeLength="28" team="A">
+    <action result="successful" type="goto">
+      <params>shop4</params>
+    </action>
+    <route i="0" lat="48.84765" lon="2.39267"/>
+    <route i="1" lat="48.84878" lon="2.39055"/>
+    <route i="2" lat="48.84992" lon="2.38843"/>
+    <route i="3" lat="48.85105" lon="2.38631"/>
+    <route i="4" lat="48.85219" lon="2.38419"/>
+    <route i="5" lat="48.85332" lon="2.38207"/>
+    <route i="6" lat="48.85446" lon="2.37995"/>
+    <route i="7" lat="48.85559" lon="2.37783"/>
+    <route i="8" lat="48.85673" lon="2.37571"/>
+    <route i="9" lat="48.85786" lon="2.37359"/>
+    <route i="10" lat="48.859" lon="2.37147"/>
+    <route i="11" lat="48.86013" lon="2.36935"/>
+    <route i="12" lat="48.86127" lon="2.36722"/>
+    <route i="13" lat="48.8624" lon="2.3651"/>
+    <route i="14" lat="48.86354" lon="2.36298"/>
+    <route i="15" lat="48.86467" lon="2.36086"/>
+    <route i="16" lat="48.86581" lon="2.35874"/>
+    <route i="17" lat="48.86694" lon="2.35662"/>
+    <route i="18" lat="48.86808" lon="2.3545"/>
+    <route i="19" lat="48.86921" lon="2.35238"/>
+    <route i="20" lat="48.87035" lon="2.35026"/>
+    <route i="21" lat="48.87148" lon="2.34814"/>
+    <route i="22" lat="48.87262" lon="2.34602"/>
+    <route i="23" lat="48.87375" lon="2.3439"/>
+    <route i="24" lat="48.87489" lon="2.34177"/>
+    <route i="25" lat="48.87602" lon="2.33965"/>
+    <route i="26" lat="48.87716" lon="2.33753"/>
+    <route i="27" lat="48.87731" lon="2.33725"/>
+  </entity>
+  <entity charge="2000" lat="48.89342" load="0" lon="2.38456" name="agentB6" role="truck" team="B">
+    <action result="successful" type="noAction"/>
+  </entity>
+  <entity charge="350" lat="48.86719" load="0" lon="2.37842" name="agentA5" role="motorcycle" team="A">
+    <action result="successful" type="skip"/>
+  </entity>
+  <shop lat="48.88923" lon="2.39355" name="shop5" restock="3">
+    <item amount="18" name="item5" price="36"/>
+    <item amount="6" name="item8" price="74"/>
+    <item amount="8" name="tool0" price="81"/>
+  </shop>
+  <shop lat="48.82931" lon="2.3297" name="shop1" restock="1">
+    <item amount="11" name="item9" price="139"/>
+    <item amount="9" name="item5" price="44"/>
+    <item amount="6" name="item2" price="28"/>
+    <item amount="10" name="item0" price="31"/>
+    <item amount="5" name="item10" price="27"/>
+    <item amount="14" name="tool0" price="64"/>
+    <item amount="14" name="item1" price="85"/>
+  </shop>
+  <shop lat="48.84754" lon="2.40211" name="shop3" restock="5">
+    <item amount="19" name="item9" price="104"/>
+    <item amount="11" name="item2" price="24"/>
+    <item amount="18" name="item7" price="62"/>
+    <item amount="13" name="item0" price="41"/>
+    <item amount="13" name="item8" price="65"/>
+    <item amount="6" name="item10" price="31"/>
+    <item amount="10" name="item6" price="23"/>
+    <item amount="17" name="item4" price="109"/>
+  </shop>
+  <shop lat="48.87731" lon="2.33725" name="shop4" restock="4">
+    <item amount="5" name="item9" price="144"/>
+    <item amount="15" name="item2" price="28"/>
+    <item amount="13" name="item7" price="57"/>
+    <item amount="10" name="item3" price="142"/>
+    <item amount="12" name="item0" price="44"/>
+    <item amount="13" name="item8" price="62"/>
+    <item amount="12" name="item6" price="17"/>
+    <item amount="12" name="item1" price="67"/>
+  </shop>
+  <shop lat="48.84353" lon="2.2938" name="shop0" restock="2">
+    <item amount="17" name="item9" price="131"/>
+    <item amount="15" name="item7" price="53"/>
+    <item amount="17" name="item6" price="17"/>
+    <item amount="20" name="tool0" price="69"/>
+  </shop>
+  <shop lat="48.84321" lon="2.34465" name="shop2" restock="5">
+    <item amount="10" name="item9" price="121"/>
+    <item amount="17" name="item7" price="70"/>
+    <item amount="12" name="item0" price="35"/>
+    <item amount="18" name="item10" price="30"/>
+    <item amount="16" name="item6" price="18"/>
+    <item amount="18" name="tool0" price="91"/>
+    <item amount="5" name="item4" price="114"/>
+    <item amount="20" name="item1" price="94"/>
+  </shop>
+  <workshop lat="48.88508" lon="2.3108" name="workshop5"/>
+  <workshop lat="48.86442" lon="2.28807" name="workshop4"/>
+  <workshop lat="48.83294" lon="2.27882" name="workshop0"/>
+  <workshop lat="48.87468" lon="2.35391" name="workshop6"/>
+  <workshop lat="48.85113" lon="2.39735" name="workshop3"/>
+  <workshop lat="48.84373" lon="2.3245" name="workshop1"/>
+  <workshop lat="48.82057" lon="2.36593" name="workshop2"/>
+  <chargingStation lat="48.85108" lon="2.28619" name="chargingStation0" rate="114"/>
+  <chargingStation lat="48.83921" lon="2.40422" name="chargingStation3" rate="98"/>
+  <chargingStation lat="48.87787" lon="2.30337" name="chargingStation5" rate="61"/>
+  <chargingStation lat="48.87227" lon="2.29148" name="chargingStation4" rate="82"/>
+  <chargingStation lat="48.8377" lon="2.31033" name="chargingStation1" rate="56"/>
+  <chargingStation lat="48.89535" lon="2.36014" name="chargingStation6" rate="121"/>
+  <chargingStation lat="48.88657" lon="2.40998" name="chargingStation7" rate="136"/>
+  <chargingStation lat="48.85558" lon="2.37739" name="chargingStation2" rate="112"/>
+  <dump lat="48.83965" lon="2.35357" name="dump0"/>
+  <dump lat="48.88454" lon="2.38825" name="dump2"/>
+  <dump lat="48.8212" lon="2.39463" name="dump1"/>
+  <job end="395" id="job3" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="411" id="job7" poster="system" reward="18" start="14" storage="storage6">
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="294" id="job0" poster="system" reward="17" start="1" storage="storage5">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item4"/>
+  </job>
+  <job end="341" id="job2" poster="system" reward="17" start="8" storage="storage5">
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item4"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <job end="395" id="job5" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="395" id="job4" poster="system" reward="17" start="9" storage="storage2">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item0"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item10"/>
+  </job>
+  <job end="231" id="job6" poster="system" reward="15" start="13" storage="storage0">
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item3"/>
+    <required amount="1" name="item8"/>
+    <required amount="1" name="item0"/>
+  </job>
+  <job end="298" id="job1" poster="system" reward="15" start="2" storage="storage3">
+    <required amount="1" name="item9"/>
+    <required amount="1" name="item5"/>
+    <required amount="1" name="item2"/>
+    <required amount="1" name="item7"/>
+    <required amount="1" name="item1"/>
+  </job>
+  <storage lat="48.88898" lon="2.39296" name="storage6" totalCapacity="8351" usedCapacity="0"/>
+  <storage lat="48.85252" lon="2.38946" name="storage2" totalCapacity="8232" usedCapacity="0"/>
+  <storage lat="48.83189" lon="2.29656" name="storage0" totalCapacity="12780" usedCapacity="0"/>
+  <storage lat="48.82147" lon="2.32767" name="storage1" totalCapacity="12712" usedCapacity="0"/>
+  <storage lat="48.88677" lon="2.32877" name="storage4" totalCapacity="12586" usedCapacity="0"/>
+  <storage lat="48.8966" lon="2.27797" name="storage3" totalCapacity="13816" usedCapacity="0"/>
+  <storage lat="48.86731" lon="2.37925" name="storage5" totalCapacity="11324" usedCapacity="0"/>
+  <resourceNode lat="48.86918" lon="2.38663" name="resourceNode6" resource="item8"/>
+  <resourceNode lat="48.83177" lon="2.29636" name="resourceNode0" resource="item8"/>
+  <resourceNode lat="48.87069" lon="2.27046" name="resourceNode3" resource="item8"/>
+  <resourceNode lat="48.85398" lon="2.3518" name="resourceNode1" resource="item9"/>
+  <resourceNode lat="48.87096" lon="2.34973" name="resourceNode5" resource="item10"/>
+  <resourceNode lat="48.83114" lon="2.3966" name="resourceNode2" resource="item10"/>
+  <resourceNode lat="48.87292" lon="2.30832" name="resourceNode4" resource="item9"/>
+  <team money="49856" name="A"/>
+  <team money="50000" name="B"/>
+  <team money="50000" name="C"/>
+</dynamicCity>

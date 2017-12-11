@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<staticCity id="2017-SampleSimulation" map="paris" seedCapital="50000" steps="1000">
+  <teams>A B C</teams>
+  <role battery="350" load="300" name="motorcycle" speed="4"/>
+  <role battery="500" load="550" name="car" speed="3"/>
+  <role battery="2000" load="3000" name="truck" speed="2">
+    <tool name="tool0"/>
+  </role>
+  <role battery="250" load="100" name="drone" speed="5"/>
+  <item name="item0" volume="22"/>
+  <item name="item2" volume="14"/>
+  <item name="item1" volume="24"/>
+  <item name="item8" volume="19"/>
+  <item name="item7" volume="17"/>
+  <item name="item9" volume="34"/>
+  <item name="item4" volume="37"/>
+  <item name="item3" volume="17"/>
+  <item name="item10" volume="41"/>
+  <item name="item6" volume="47"/>
+  <item name="item5" volume="24"/>
+  <item name="tool0" volume="35"/>
+</staticCity>

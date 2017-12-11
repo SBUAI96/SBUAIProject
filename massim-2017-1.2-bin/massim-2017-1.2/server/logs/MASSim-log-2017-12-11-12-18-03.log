@@ -1,0 +1,1289 @@
+[ NORMAL  ]  ##   Please press ENTER to start the tournament.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA6 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA5 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   Configuring random seed: 17
+[ NORMAL  ]  ##   Configuring facilities quadSize: 0.04
+[ NORMAL  ]  ##   Configuring facilities charging station density: 0.9
+[ NORMAL  ]  ##   Configuring facilities charging station rateMin: 50
+[ NORMAL  ]  ##   Configuring facilities charging station rateMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop density: 0.8
+[ NORMAL  ]  ##   Configuring facilities shop minProd: 3
+[ NORMAL  ]  ##   Configuring facilities shop maxProd: 10
+[ NORMAL  ]  ##   Configuring facilities shop amountMin: 5
+[ NORMAL  ]  ##   Configuring facilities shop amountMax: 20
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMin: 100
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop restockMin: 1
+[ NORMAL  ]  ##   Configuring facilities shop restockMax: 5
+[ NORMAL  ]  ##   Configuring facilities dump density: 0.6
+[ NORMAL  ]  ##   Configuring facilities workshops density: 0.6
+[ NORMAL  ]  ##   Configuring facilities storage density: 0.8
+[ NORMAL  ]  ##   Configuring facilities storage capacityMin: 7500
+[ NORMAL  ]  ##   Configuring facilities storage capacityMax: 15000
+[ NORMAL  ]  ##   Configuring facilities resource node density: 0.7
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMin: 4
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMax: 8
+[ NORMAL  ]  ##   Configuring items baseItemsMin: 8
+[ NORMAL  ]  ##   Configuring items baseItemsMax: 10
+[ NORMAL  ]  ##   Configuring items levelDecreaseMin: 1
+[ NORMAL  ]  ##   Configuring items levelDecreaseMax: 2
+[ NORMAL  ]  ##   Configuring items graphDepthMin: 0
+[ NORMAL  ]  ##   Configuring items graphDepthMax: 0
+[ NORMAL  ]  ##   Configuring items resourcesMin: 2
+[ NORMAL  ]  ##   Configuring items resourcesMax: 4
+[ NORMAL  ]  ##   Configuring items minVol: 10
+[ NORMAL  ]  ##   Configuring items maxVol: 50
+[ NORMAL  ]  ##   Configuring items valueMin: 10
+[ NORMAL  ]  ##   Configuring items valueMax: 100
+[ NORMAL  ]  ##   Configuring items minReq: 0
+[ NORMAL  ]  ##   Configuring items maxReq: 0
+[ NORMAL  ]  ##   Configuring items reqAmountMin: 2
+[ NORMAL  ]  ##   Configuring items reqAmountMax: 4
+[ NORMAL  ]  ##   Configuring items toolsMin: 0
+[ NORMAL  ]  ##   Configuring items toolsMax: 1
+[ NORMAL  ]  ##   Configuring items toolProbability: 0.0
+[ NORMAL  ]  ##   Configuring jobs rate: 0.4
+[ NORMAL  ]  ##   Configuring jobs auctionProbability: 0.0
+[ NORMAL  ]  ##   Configuring jobs missionProbability: 0.2
+[ NORMAL  ]  ##   Configuring jobs productTypesMin: 3
+[ NORMAL  ]  ##   Configuring jobs productTypesMax: 5
+[ NORMAL  ]  ##   Configuring jobs difficultyMin: 0
+[ NORMAL  ]  ##   Configuring jobs difficultyMax: 0
+[ NORMAL  ]  ##   Configuring jobs timeMin: 100
+[ NORMAL  ]  ##   Configuring jobs timeMax: 400
+[ NORMAL  ]  ##   Configuring jobs rewardAddMin: 50
+[ NORMAL  ]  ##   Configuring jobs rewardAddMax: 100
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMin: 2
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMax: 10
+[ NORMAL  ]  ##   Configuring jobs fineSub: 50
+[ NORMAL  ]  ##   Configuring jobs fineAdd: 50
+[ NORMAL  ]  ##   Configuring jobs maxRewardAdd: 50
+[ NORMAL  ]  ##   Configuring jobs missionDifficultyMax: 0
+[ NORMAL  ]  ##   Configuring simulation id: 2017-SampleSimulation
+[ NORMAL  ]  ##   Configuring scenario map: paris
+[ NORMAL  ]  ##   Configuring scenario seedCapital: 50000
+[ NORMAL  ]  ##   Configuring scenario minLon: 2.26
+[ NORMAL  ]  ##   Configuring scenario maxLon: 2.41
+[ NORMAL  ]  ##   Configuring scenario minLat: 48.82
+[ NORMAL  ]  ##   Configuring scenario maxLat: 48.9
+[ NORMAL  ]  ##   Configuring scenario proximity: 5
+[ NORMAL  ]  ##   Configuring scenario cellSize: 200.0
+[ NORMAL  ]  ##   Configuring scenario centerLat: 48.8424
+[ NORMAL  ]  ##   Configuring scenario centerLon: 2.3209
+[ NORMAL  ]  ##   Configuring post_job limit: 10
+[ NORMAL  ]  ##   Configuring random fail probability: 1
+[ NORMAL  ]  ##   Configuring visibility range: 500
+[ NORMAL  ]  ##   Configuring cost for goto: 10
+[ NORMAL  ]  ##   Configuring recharge rate: 5
+[ NORMAL  ]  ##   maxCapacity= 3000
+[ NORMAL  ]  ##   Configuring items tools: tool0: volume=35 value=63 roles=[truck]
+[ NORMAL  ]  ##   Configuring items: item graph level 0
+[ NORMAL  ]  ##   Configuring items: item0 volume=22 value=31 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item1 volume=24 value=66 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item2 volume=14 value=21 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item3 volume=17 value=97 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item4 volume=37 value=97 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item5 volume=24 value=36 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item6 volume=47 value=17 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item7 volume=17 value=48 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item8 volume=19 value=60 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item9 volume=34 value=96 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring items: item10 volume=41 value=23 assembleValue=0 items= tools=
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode0: item8 48.83177, 2.29636
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode1: item9 48.85398, 2.3518
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode2: item10 48.83114, 2.3966
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode3: item8 48.87069, 2.27046
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode4: item9 48.87292, 2.30832
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode5: item10 48.87096, 2.34973
+[ NORMAL  ]  ##   Configuring resource nodes: resourceNode6: item8 48.86918, 2.38663
+[ NORMAL  ]  ##   Configuring facilities: chargingStation0: 48.85108, 2.28619
+[ NORMAL  ]  ##   Configuring facilities: chargingStation1: 48.8377, 2.31033
+[ NORMAL  ]  ##   Configuring facilities: chargingStation2: 48.85558, 2.37739
+[ NORMAL  ]  ##   Configuring facilities: chargingStation3: 48.83921, 2.40422
+[ NORMAL  ]  ##   Configuring facilities: chargingStation4: 48.87227, 2.29148
+[ NORMAL  ]  ##   Configuring facilities: chargingStation5: 48.87787, 2.30337
+[ NORMAL  ]  ##   Configuring facilities: chargingStation6: 48.89535, 2.36014
+[ NORMAL  ]  ##   Configuring facilities: chargingStation7: 48.88657, 2.40998
+[ NORMAL  ]  ##   Configuring facilities: shop0: 48.84353, 2.2938
+[ NORMAL  ]  ##   Configuring facilities: shop1: 48.82931, 2.3297
+[ NORMAL  ]  ##   Configuring facilities: shop2: 48.84321, 2.34465
+[ NORMAL  ]  ##   Configuring facilities: shop3: 48.84754, 2.40211
+[ NORMAL  ]  ##   Configuring facilities: shop4: 48.87731, 2.33725
+[ NORMAL  ]  ##   Configuring facilities: shop5: 48.88923, 2.39355
+[ NORMAL  ]  ##   Configuring facilities: dump0: 48.83965, 2.35357
+[ NORMAL  ]  ##   Configuring facilities: dump1: 48.8212, 2.39463
+[ NORMAL  ]  ##   Configuring facilities: dump2: 48.88454, 2.38825
+[ NORMAL  ]  ##   Configuring facilities: workshop0: 48.83294, 2.27882
+[ NORMAL  ]  ##   Configuring facilities: workshop1: 48.84373, 2.3245
+[ NORMAL  ]  ##   Configuring facilities: workshop2: 48.82057, 2.36593
+[ NORMAL  ]  ##   Configuring facilities: workshop3: 48.85113, 2.39735
+[ NORMAL  ]  ##   Configuring facilities: workshop4: 48.86442, 2.28807
+[ NORMAL  ]  ##   Configuring facilities: workshop5: 48.88508, 2.3108
+[ NORMAL  ]  ##   Configuring facilities: workshop6: 48.87468, 2.35391
+[ NORMAL  ]  ##   Configuring facilities: storage0: 48.83189, 2.29656
+[ NORMAL  ]  ##   Configuring facilities: storage1: 48.82147, 2.32767
+[ NORMAL  ]  ##   Configuring facilities: storage2: 48.85252, 2.38946
+[ NORMAL  ]  ##   Configuring facilities: storage3: 48.8966, 2.27797
+[ NORMAL  ]  ##   Configuring facilities: storage4: 48.88677, 2.32877
+[ NORMAL  ]  ##   Configuring facilities: storage5: 48.86731, 2.37925
+[ NORMAL  ]  ##   Configuring facilities: storage6: 48.88898, 2.39296
+[ NORMAL  ]  ##   Configuring facilities: resourceNode0: 48.83177, 2.29636
+[ NORMAL  ]  ##   Configuring facilities: resourceNode1: 48.85398, 2.3518
+[ NORMAL  ]  ##   Configuring facilities: resourceNode2: 48.83114, 2.3966
+[ NORMAL  ]  ##   Configuring facilities: resourceNode3: 48.87069, 2.27046
+[ NORMAL  ]  ##   Configuring facilities: resourceNode4: 48.87292, 2.30832
+[ NORMAL  ]  ##   Configuring facilities: resourceNode5: 48.87096, 2.34973
+[ NORMAL  ]  ##   Configuring facilities: resourceNode6: 48.86918, 2.38663
+[ NORMAL  ]  ##   Simulation at step 0
+[ NORMAL  ]  ##   job probability=0.4
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item3,1x item8,1x item4 17 1 294 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ CRITICAL  ]  ##   No action for agent agentB6 provided.
+[ NORMAL  ]  ##   Simulation at step 1
+[ NORMAL  ]  ##   job probability=0.39960019993335005
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item5,1x item2,1x item7,1x item1 15 2 298 storage3 loc(2.27797,48.8966) capacity(13816) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ CRITICAL  ]  ##   No action for agent agentC3 provided.
+[ NORMAL  ]  ##   Simulation at step 2
+[ NORMAL  ]  ##   job probability=0.39920079946693326
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 3
+[ NORMAL  ]  ##   job probability=0.3988017982013492
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ CRITICAL  ]  ##   No action for agent agentC6 provided.
+[ NORMAL  ]  ##   Simulation at step 4
+[ NORMAL  ]  ##   job probability=0.39840319573759664
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 5
+[ NORMAL  ]  ##   job probability=0.39800499167707293
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   Simulation at step 6
+[ NORMAL  ]  ##   job probability=0.39760718562157416
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 7
+[ NORMAL  ]  ##   job probability=0.3972097771732941
+[ NORMAL  ]  ##   Configuring jobs: : 1x item2,1x item7,1x item8,1x item4,1x item1 17 8 341 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ CRITICAL  ]  ##   No action for agent agentC2 provided.
+[ NORMAL  ]  ##   Simulation at step 8
+[ NORMAL  ]  ##   job probability=0.3968127659348243
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item3,1x item0,1x item8,1x item10 17 9 395 storage2 loc(2.38946,48.85252) capacity(8232) class massim.scenario.city.data.Mission
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item3,1x item0,1x item8,1x item10 17 9 395 storage2 loc(2.38946,48.85252) capacity(8232) class massim.scenario.city.data.Mission
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item3,1x item0,1x item8,1x item10 17 9 395 storage2 loc(2.38946,48.85252) capacity(8232) class massim.scenario.city.data.Mission
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 9
+[ NORMAL  ]  ##   job probability=0.3964161515091535
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 10
+[ NORMAL  ]  ##   job probability=0.39601993349966724
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   Simulation at step 11
+[ NORMAL  ]  ##   job probability=0.39562411151014754
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 12
+[ NORMAL  ]  ##   job probability=0.3952286851447722
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item7,1x item3,1x item8,1x item0 15 13 231 storage0 loc(2.29656,48.83189) capacity(12780) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   Simulation at step 13
+[ NORMAL  ]  ##   job probability=0.39483365400811504
+[ NORMAL  ]  ##   Configuring jobs: : 1x item2,1x item7,1x item4,1x item1 18 14 411 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 14
+[ NORMAL  ]  ##   job probability=0.3944390177051448
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 15
+[ NORMAL  ]  ##   job probability=0.3940447758412251
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item0,1x item6,1x item1 17 16 256 storage3 loc(2.27797,48.8966) capacity(13816) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ CRITICAL  ]  ##   No action for agent agentC6 provided.
+[ NORMAL  ]  ##   Simulation at step 16
+[ NORMAL  ]  ##   job probability=0.3936509280221141
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 17
+[ NORMAL  ]  ##   job probability=0.39325747385396387
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item8,1x item10 19 18 398 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   Simulation at step 18
+[ NORMAL  ]  ##   job probability=0.3928644129433203
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 19
+[ NORMAL  ]  ##   job probability=0.39247174489712244
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 20
+[ NORMAL  ]  ##   job probability=0.3920794693227021
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item9,1x item0 19 21 302 storage1 loc(2.32767,48.82147) capacity(12712) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 21
+[ NORMAL  ]  ##   job probability=0.39168758582778385
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item2,1x item3 19 22 245 storage4 loc(2.32877,48.88677) capacity(12586) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   Simulation at step 22
+[ NORMAL  ]  ##   job probability=0.39129609402048404
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 23
+[ NORMAL  ]  ##   job probability=0.39090499350931085
+[ NORMAL  ]  ##   Configuring jobs: : 1x item3,1x item7,1x item10 19 24 252 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 24
+[ NORMAL  ]  ##   job probability=0.39051428390316373
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item3,1x item8,1x item4 15 25 373 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 25
+[ NORMAL  ]  ##   job probability=0.39012396481133305
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ CRITICAL  ]  ##   No action for agent agentB6 provided.
+[ NORMAL  ]  ##   Simulation at step 26
+[ NORMAL  ]  ##   job probability=0.38973403584349975
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item2,1x item8,1x item10 19 27 317 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 27
+[ NORMAL  ]  ##   job probability=0.38934449660973475
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 28
+[ NORMAL  ]  ##   job probability=0.38895534672049875
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 29
+[ NORMAL  ]  ##   job probability=0.38856658578664194
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item9,1x item10,1x item4,1x item1 15 30 355 storage4 loc(2.32877,48.88677) capacity(12586) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   Simulation at step 30
+[ NORMAL  ]  ##   job probability=0.3881782134194033
+[ NORMAL  ]  ##   Configuring jobs: : 1x item7,1x item2,1x item0 16 31 383 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 31
+[ NORMAL  ]  ##   job probability=0.3877902292304104
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ CRITICAL  ]  ##   No action for agent agentB6 provided.
+[ NORMAL  ]  ##   Simulation at step 32
+[ NORMAL  ]  ##   job probability=0.3874026328316791
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item9,1x item3,1x item7,1x item6 16 33 274 storage0 loc(2.29656,48.83189) capacity(12780) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 33
+[ NORMAL  ]  ##   job probability=0.3870154238356128
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 34
+[ NORMAL  ]  ##   job probability=0.3866286018550027
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item5,1x item10 18 35 166 storage1 loc(2.32767,48.82147) capacity(12712) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 35
+[ NORMAL  ]  ##   job probability=0.3862421665030266
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 36
+[ NORMAL  ]  ##   job probability=0.38585611739324926
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   Simulation at step 37
+[ NORMAL  ]  ##   job probability=0.38547045413962144
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ CRITICAL  ]  ##   No action for agent agentC6 provided.
+[ NORMAL  ]  ##   Simulation at step 38
+[ NORMAL  ]  ##   job probability=0.3850851763564798
+[ NORMAL  ]  ##   Configuring jobs: : 1x item7,1x item8,1x item6 17 39 161 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   Simulation at step 39
+[ NORMAL  ]  ##   job probability=0.3847002836585467
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 40
+[ NORMAL  ]  ##   job probability=0.3843157756609293
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 41
+[ NORMAL  ]  ##   job probability=0.3839316519791196
+[ NORMAL  ]  ##   Configuring jobs: : 1x item8,1x item10,1x item6 18 42 272 storage4 loc(2.32877,48.88677) capacity(12586) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 42
+[ NORMAL  ]  ##   job probability=0.3835479122289938
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   Simulation at step 43
+[ NORMAL  ]  ##   job probability=0.38316455602681226
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   Simulation at step 44
+[ NORMAL  ]  ##   job probability=0.3827815829892187
+[ NORMAL  ]  ##   Configuring jobs: : 1x item7,1x item10,1x item4 17 45 309 storage0 loc(2.29656,48.83189) capacity(12780) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   Simulation at step 45
+[ NORMAL  ]  ##   job probability=0.38239899273324
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ CRITICAL  ]  ##   No action for agent agentB6 provided.
+[ NORMAL  ]  ##   Simulation at step 46
+[ NORMAL  ]  ##   job probability=0.3820167848762859
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   Simulation at step 47
+[ NORMAL  ]  ##   job probability=0.38163495903614847
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ CRITICAL  ]  ##   No action for agent agentB5 provided.
+[ NORMAL  ]  ##   Simulation at step 48
+[ NORMAL  ]  ##   job probability=0.3812535148310019
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item2,1x item7,1x item4,1x item1 16 49 289 storage6 loc(2.39296,48.88898) capacity(8351) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 49
+[ NORMAL  ]  ##   job probability=0.380872451879402
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 50
+[ NORMAL  ]  ##   job probability=0.38049176980028565
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 51
+[ NORMAL  ]  ##   job probability=0.3801114682129708
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ CRITICAL  ]  ##   No action for agent agentC5 provided.
+[ NORMAL  ]  ##   Simulation at step 52
+[ NORMAL  ]  ##   job probability=0.3797315467371558
+[ NORMAL  ]  ##   Configuring jobs: : 1x item0,1x item10,1x item6,1x item4 18 53 362 storage1 loc(2.32767,48.82147) capacity(12712) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 53
+[ NORMAL  ]  ##   job probability=0.3793520049929193
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 54
+[ NORMAL  ]  ##   job probability=0.37897284260071934
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 55
+[ NORMAL  ]  ##   job probability=0.37859405918139355
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ CRITICAL  ]  ##   No action for agent agentC2 provided.
+[ NORMAL  ]  ##   Simulation at step 56
+[ NORMAL  ]  ##   job probability=0.37821565435615856
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 57
+[ NORMAL  ]  ##   job probability=0.37783762774660934
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item9,1x item7,1x item8,1x item6 19 58 159 storage1 loc(2.32767,48.82147) capacity(12712) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   Simulation at step 58
+[ NORMAL  ]  ##   job probability=0.37745997897471945
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item4,1x item1 15 59 407 storage1 loc(2.32767,48.82147) capacity(12712) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 59
+[ NORMAL  ]  ##   job probability=0.3770827076628399
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 60
+[ NORMAL  ]  ##   job probability=0.3767058134336995
+[ NORMAL  ]  ##   Configuring jobs: : 1x item9,1x item7,1x item0,1x item10,1x item6 15 61 418 storage3 loc(2.27797,48.8966) capacity(13816) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   Simulation at step 61
+[ NORMAL  ]  ##   job probability=0.37632929591040387
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ CRITICAL  ]  ##   No action for agent agentC6 provided.
+[ NORMAL  ]  ##   Simulation at step 62
+[ NORMAL  ]  ##   job probability=0.3759531547164356
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 63
+[ NORMAL  ]  ##   job probability=0.37557738947565333
+[ NORMAL  ]  ##   Configuring jobs: : 1x item3,1x item8,1x item6,1x item4 17 64 271 storage4 loc(2.32877,48.88677) capacity(12586) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   Simulation at step 64
+[ NORMAL  ]  ##   job probability=0.3752019998122918
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ CRITICAL  ]  ##   No action for agent agentB5 provided.
+[ NORMAL  ]  ##   Simulation at step 65
+[ NORMAL  ]  ##   job probability=0.3748269853509614
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   Simulation at step 66
+[ NORMAL  ]  ##   job probability=0.37445234571664754
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   Simulation at step 67
+[ NORMAL  ]  ##   job probability=0.37407808053471064
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 68
+[ NORMAL  ]  ##   job probability=0.37370418943088546
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item9,1x item7,1x item4,1x item1 16 69 219 storage4 loc(2.32877,48.88677) capacity(12586) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   Simulation at step 69
+[ NORMAL  ]  ##   job probability=0.3733306720312808
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   Simulation at step 70
+[ NORMAL  ]  ##   job probability=0.37295752796237935
+[ NORMAL  ]  ##   Configuring jobs: : 1x item5,1x item7,1x item0,1x item8 17 71 217 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   Simulation at step 71
+[ NORMAL  ]  ##   job probability=0.37258475685103687
+[ NORMAL  ]  ##   Configuring jobs: : 1x item7,1x item3,1x item10,1x item6,1x item1 15 72 443 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   Simulation at step 72
+[ NORMAL  ]  ##   job probability=0.3722123583244823
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   Simulation at step 73
+[ NORMAL  ]  ##   job probability=0.37184033201031713
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   Simulation at step 74
+[ NORMAL  ]  ##   job probability=0.3714686775365149
+[ NORMAL  ]  ##   Configuring jobs: : 1x item7,1x item3,1x item10,1x item6,1x item1 16 75 315 storage5 loc(2.37925,48.86731) capacity(11324) class massim.scenario.city.data.Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   Simulation at step 75
+[ NORMAL  ]  ##   job probability=0.37109739453142115
+[ NORMAL  ]  ##   No valid action available in time for agent agentB3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentC6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentB6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   Simulation at step 76
+[ NORMAL  ]  ##   job probability=0.3707264826237529
